@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar__item {
+  color: lightgray;
+  text-decoration: none;
+  padding: 1rem;
+  margin: 2rem;
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+.navbar__item:hover {
+  transform: scale(1.1);
+  color: #fff;
+}
+.navbar__item:active {
+  transform: scale(1);
+}
+
+.header {
+  height: 100vh;
+  background-image: url(../img/bg-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 65vh;
+
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.title__sub {
+  font-weight: 400;
+  letter-spacing: 1.5rem;
+  /* padding: 2.5rem; */
+  font-size: 2rem;
+}
+
+.title__main {
+  font-weight: 700;
+  letter-spacing: 2.5rem;
+  padding: 2rem;
+  font-size: 6rem;
+}
+.title__sub2 {
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.main {
+  background-image: url(../img/bg-2.jpg);
+}
