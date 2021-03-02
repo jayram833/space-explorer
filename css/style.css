@@ -78,4 +78,77 @@ body {
 
 .main {
   background-image: url(../img/bg-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 8rem;
+}
+
+.heading-primary {
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  color: #fff;
+  font-size: 4rem;
+}
+
+.container {
+  width: 70%;
+  margin: 3rem auto;
+  height: 100rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+
+  align-items: center;
+  /* // grid-row-gap: 30px; */
+  /* // grid-column-gap: 30px; */
+  grid-gap: 30px;
+}
+
+.item {
+  /* padding: 30px; */
+  /* background-color: orangered; */
+  color: #fff;
+  font-size: 4rem;
+
+  /* overflow: auto; */
+}
+.main--txt {
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  color: lightgray;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.sub--txt {
+  font-weight: 400;
+  /* letter-spacing: 0.5rem; */
+  color: lightgray;
+
+  font-size: 1.8rem;
+}
+
+.item--5 {
+  align-self: center;
+}
+
+.image {
+  width: 40rem;
+}
+.nasa--api {
+  text-decoration: none;
+  background-color: #28a49c; /*#28a49c*/
+  color: #fff;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-size: 1.8rem;
+}
+
+.icon--1 {
+  height: 2.25rem;
+  color: #fff;
+  width: 2.25rem;
 }
