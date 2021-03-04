@@ -4,8 +4,7 @@ const getData = async function () {
   );
   const data = await response.json();
   console.log(data);
-  //   document.querySelector(".news").innerHTML = data.explanation;
-  //   document.querySelector(".hdimage").src = data.url;
+  document.querySelector(".hdimage").src = data.url;
 
   document.querySelector(".news").innerHTML = data.explanation;
   document.querySelector(".ntitle").innerHTML = data.title;
