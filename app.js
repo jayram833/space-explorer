@@ -4,10 +4,12 @@ const getData = async function () {
   );
   const data = await response.json();
   console.log(data);
-  document.querySelector(".title").innerHTML = data.title;
-  document.querySelector(".date").innerHTML = data.date;
+  //   document.querySelector(".news").innerHTML = data.explanation;
+  //   document.querySelector(".hdimage").src = data.url;
+
   document.querySelector(".news").innerHTML = data.explanation;
-  document.querySelector(".hdimage").src = data.url;
+  document.querySelector(".ntitle").innerHTML = data.title;
+  document.querySelector(".ndate").innerHTML = data.date;
 };
 
 getData();
