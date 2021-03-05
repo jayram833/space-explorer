@@ -9,6 +9,7 @@ const getData = async function () {
   document.querySelector(".news").innerHTML = data.explanation;
   document.querySelector(".ntitle").innerHTML = data.title;
   document.querySelector(".ndate").innerHTML = data.date;
+  document.querySelector(".copyrights").innerHTML = data.copyright;
 };
 
 getData();

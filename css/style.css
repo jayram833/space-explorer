@@ -135,6 +135,7 @@ body {
 .image {
   width: 40rem;
 }
+
 .nasa--api {
   text-decoration: none;
   background-color: #28a49c; /*#28a49c*/
@@ -212,4 +213,55 @@ body {
 .hdimage {
   width: 80%;
   padding-bottom: 10rem;
+}
+
+.title__sub5 {
+  font-weight: 400;
+  font-size: 1.8rem;
+  padding-bottom: 2rem;
+}
+
+.containerfooter {
+  padding: 5rem 3.5rem;
+  background-color: #2a3140;
+  position: absolute;
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.card1 {
+  width: 20%;
+  height: 35rem;
+  /* background-color: orangered; */
+  border-radius: 2.5rem;
+  padding: 2rem 3.5rem;
+  text-align: start;
+}
+
+.card1:hover {
+  background-color: rgba(22, 22, 41, 0.767);
+}
+
+.title__sub4 {
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: #fff;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  padding: 3rem 2.5rem;
+}
+
+.sub--txt3 {
+  font-weight: 400;
+  color: lightgray;
+  font-size: 1.8rem;
+}
+
+.lnk {
+  text-decoration: none;
+  color: #28a49c;
+  display: block;
+  padding-top: 2.5rem;
+  font-size: 1.8rem;
 }
