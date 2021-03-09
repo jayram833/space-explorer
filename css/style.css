@@ -15,6 +15,12 @@ html {
   scroll-behavior: smooth;
 }
 
+@media only screen and(max-width: 62.5em) {
+  html {
+    font-size: 50%;
+  }
+}
+
 body {
   font-family: "Lato", sans-serif;
 }
@@ -61,7 +67,6 @@ body {
 .title__sub {
   font-weight: 400;
   letter-spacing: 1.5rem;
-  /* padding: 2.5rem; */
   font-size: 2rem;
 }
 
@@ -180,7 +185,7 @@ body {
 }
 
 .newscard {
-  margin-bottom: 8rem;
+  padding-bottom: 8rem;
 }
 
 .newsheader {
@@ -252,7 +257,7 @@ body {
 .containerfooter {
   padding: 5rem 3.5rem;
   background-color: #2a3140;
-  position: absolute;
+  /* position: absolute; */
   display: flex;
 
   justify-content: space-around;
@@ -291,5 +296,15 @@ body {
   color: #28a49c;
   display: block;
   padding-top: 2.5rem;
+  font-size: 1.8rem;
+}
+.cpright {
+  background-color: #2a3140;
+
+  text-align: center;
+  padding: 1rem;
+  color: #fff;
+
+  font-weight: 400;
   font-size: 1.8rem;
 }
